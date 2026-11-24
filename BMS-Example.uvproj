@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project xmlns="http://www.keil.com/pack/uvproj">
+  <SchemaVersion>2.1</SchemaVersion><Header>### uVision Project, (C) Keil Software</Header>
+  <Targets><Target><TargetName>BMS-8051</TargetName><ToolsetNumber>0x0</ToolsetNumber><ToolsetName>C51</ToolsetName>
+    <TargetOption><TargetCommonOption><Device>Generic 8051</Device><Vendor>Generic</Vendor><Cpu>IRAM(0-0xFF) XRAM(0-0xFFFF) IROM(0-0xFFFF) CLOCK(12000000)</Cpu><OutputDirectory>Objects\\</OutputDirectory><ListingPath>Listings\\</ListingPath><OutputName>BMS-Example</OutputName><CreateExecutable>1</CreateExecutable><DebugInformation>1</DebugInformation><C51><C51Misc>0</C51Misc><C51Debug>1</C51Debug></C51></TargetCommonOption>
+      <Target51><Xtal>12000000</Xtal><UseMemoryFrom>0</UseMemoryFrom><MemoryModel>0</MemoryModel><CodeROMSize>0</CodeROMSize><DataRAMSize>0</DataRAMSize><XdataRAMSize>0</XdataRAMSize></Target51>
+    </TargetOption>
+    <Groups><Group><GroupName>Application</GroupName><Files><File><FileName>bms.c</FileName><FileType>1</FileType><FilePath>bms.c</FilePath></File></Files></Group></Groups>
+  </Target></Targets>
+</Project>
